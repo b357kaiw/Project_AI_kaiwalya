@@ -73,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
 
         int operand1 = random.nextInt(10);
         int operand2=random.nextInt(10);
+       /*in this way we can allot 2 operands variable and  make operand as nextint
+   
+ */
         int correctButton=random.nextInt(4);
         //check is operand2 is not zero; otherwise in case of division-divide by zero error will come
         String operator = operators[random.nextInt(4)];
