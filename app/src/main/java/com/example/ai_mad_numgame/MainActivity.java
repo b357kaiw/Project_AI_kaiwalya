@@ -161,7 +161,9 @@ public class MainActivity extends AppCompatActivity {
         }
         return dataFrame;
     }
-
+/*
+   slope is given by three conditions and as per interpretation is given
+ */
     public String getInterpretation(int [][]dataFrame,double slope){
        String interpretation="All is Well";
        if(slope>0&&slope<=.5)
